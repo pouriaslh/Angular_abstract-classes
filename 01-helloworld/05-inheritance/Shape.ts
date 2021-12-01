@@ -1,6 +1,5 @@
 export class Shape{
 
-
 constructor(private _x: number,private _y: number){
 
 }
@@ -21,6 +20,7 @@ constructor(private _x: number,private _y: number){
         this._y = value;
     }
     getInfo():string{
+        // return string method
         return `x=${this._x}, y=${this._y}`;
     }
 
