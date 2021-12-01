@@ -19,8 +19,9 @@ constructor(private _x: number,private _y: number){
     public set y(value: number) {
         this._y = value;
     }
+
     getInfo():string{
-        // return string method
+     
         return `x=${this._x}, y=${this._y}`;
     }
 

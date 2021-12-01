@@ -8,7 +8,7 @@ export class Cirle extends Shape{
         super(theX,theY);
     }
     getInfo():string{
-        return super.getInfo+` , radius=${this._radius}`;
+        return super.getInfo() +`, radius=${this._radius}`;
     }
     
 
