@@ -22,9 +22,6 @@ var Cirle = /** @class */ (function (_super) {
         _this._radius = _radius;
         return _this;
     }
-    Cirle.prototype.getInfo = function () {
-        return _super.prototype.getInfo.call(this) + (", radius=" + this._radius);
-    };
     return Cirle;
 }(Shape_1.Shape));
 exports.Cirle = Cirle;
